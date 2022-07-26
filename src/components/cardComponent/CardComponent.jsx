@@ -18,7 +18,7 @@ const CardComponent = () => {
                     boxShadow: '0px 10px 30px rgba(0,0,0, 0.5)',
                 }}
             >
-                <motion.h2 layout="position">Scuderia Ferrari 🏎</motion.h2>
+                <motion.h2 layout="position">This page is under development</motion.h2>
                 {isOpen && (
                     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8 }} className="expand">
                         <p>
