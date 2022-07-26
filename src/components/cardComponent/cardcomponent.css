@@ -1,0 +1,23 @@
+.card-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.card{
+    background-color: black;
+    color: white;
+    padding: 3rem 5rem;
+}
+
+.card p{
+    padding-top: 1rem;
+    line-height: 150%;
+}
+
+.card h2{
+    font-size: 20px;
+}
+
+.expand {
+    width: 30rem;
+}
