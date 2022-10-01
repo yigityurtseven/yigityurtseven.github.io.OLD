@@ -1,18 +1,13 @@
 import "./App.css";
-import { Card, Header, Navbar } from "./components";
+import { About, Header, Navbar, Projects } from "./components";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Header />
-      <div className="card-container-app">
-        <div className="projects-text">
-          <h2>projects</h2>
-        </div>
-        <Card />
-        <Card />
-      </div>
+      <Projects />
+      <About />
     </div>
   );
 }

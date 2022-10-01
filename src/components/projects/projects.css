@@ -1,0 +1,12 @@
+.projects-outer-container{
+    margin-top: 50px;
+}
+.projects-text{
+    width: 100%;
+    text-align: center;
+  }
+  
+.projects-text h2{
+    font-weight: bold;
+    font-size: 40px;
+}

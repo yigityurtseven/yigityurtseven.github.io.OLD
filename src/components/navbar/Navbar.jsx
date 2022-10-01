@@ -15,10 +15,10 @@ const Navbar = () => {
                 }}
                 className="nav-items"
             >
-                <a href="">home</a>
-                <a href="">projects</a>
-                <a href="">about</a>
-                <a href="">dump</a>
+                <a href="#home">home</a>
+                <a href="#projects">projects</a>
+                <a href="#about">about</a>
+                <a href="#dump">dump</a>
             </motion.div>
         </div>
     );

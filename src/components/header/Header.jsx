@@ -27,7 +27,7 @@ const Header = () => {
         }
     };
     return (
-        <motion.div className="header-outer-container"
+        <motion.div className="header-outer-container" id='home'
             initial={{ opacity: 0, scale: 1 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
@@ -40,14 +40,14 @@ const Header = () => {
                 className="header-container"
                 initial="hidden"
                 animate="visible"
-                variants={container}
-            >
+                variants={container}>
                 <div className='tempdiv'></div>
-                <div className="container">
+
+                <motion.div className="container">
                     {placeholderText.map((item, index) => {
                         return <AnimatedText {...item} key={index} />;
                     })}
-                </div>
+                </motion.div>
                 <div className="container">
                     {specText.map((item, index) => {
                         return <AnimatedText {...item} key={index} />;
