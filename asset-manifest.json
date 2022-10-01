@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.38e5c608.css",
-    "main.js": "/static/js/main.088cdf36.js",
+    "main.css": "/static/css/main.6249a19f.css",
+    "main.js": "/static/js/main.f999fdb7.js",
+    "static/media/yurtsevenSS.png": "/static/media/yurtsevenSS.112734e7a41e355bca2f.png",
+    "static/media/izonaywebsitess.png": "/static/media/izonaywebsitess.30e2133487167c1ac32f.png",
     "index.html": "/index.html",
-    "main.38e5c608.css.map": "/static/css/main.38e5c608.css.map",
-    "main.088cdf36.js.map": "/static/js/main.088cdf36.js.map"
+    "main.6249a19f.css.map": "/static/css/main.6249a19f.css.map",
+    "main.f999fdb7.js.map": "/static/js/main.f999fdb7.js.map"
   },
   "entrypoints": [
-    "static/css/main.38e5c608.css",
-    "static/js/main.088cdf36.js"
+    "static/css/main.6249a19f.css",
+    "static/js/main.f999fdb7.js"
   ]
 }
