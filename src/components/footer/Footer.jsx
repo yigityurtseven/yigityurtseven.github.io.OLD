@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className='footer-outer-container'>
             <div className='footer-text-container'>
-                <h2>want to reach out to say hello, talk about a project or just here to stalk ?</h2> <br />
+                <h2>want to reach out to say hello, talk about a project or just here to stalk ?</h2><br />
                 <h2>i got you</h2>
             </div>
             <div className='footer-links-container'>

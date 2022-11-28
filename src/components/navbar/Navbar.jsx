@@ -18,7 +18,7 @@ const Navbar = () => {
                 <a href="#home">home</a>
                 <a href="#projects">projects</a>
                 <a href="#about">about</a>
-                <a href="#dump">dump</a>
+                {/* <a href="#designs">designs</a> */}
             </motion.div>
         </div>
     );
