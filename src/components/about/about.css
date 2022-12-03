@@ -1,7 +1,8 @@
-*{
+* {
     box-sizing: border-box;
 }
-.about-outer-container{
+
+.about-outer-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,7 +10,8 @@
     max-height: 800px;
     text-align: center;
 }
-.about-container{
+
+.about-container {
     height: 66vh;
     max-height: 800px;
     width: 96vw;
@@ -26,53 +28,57 @@
     text-align: justify;
 }
 
-.about-left-side{
+.about-left-side {
     width: 50%;
     height: 80%;
 }
 
-.about-title h2{
+.about-title h2 {
     font-weight: bold;
     letter-spacing: -3px;
 }
-.about-text{
+
+.about-text {
     margin-top: 15px;
     margin-bottom: 10px;
 }
-.about-text p{
+
+.about-text p {
     letter-spacing: -0.8px;
     font-weight: 500;
     font-size: 18px;
     line-height: 20px;
 }
 
-.about-text a{
+.about-text a {
     color: black;
     text-decoration: none;
     text-decoration: underline;
 }
 
-.about-text a:visited{
+.about-text a:visited {
     color: black;
 }
 
-.about-right-side img{
+.about-right-side img {
     width: 350px;
     height: auto;
     border-radius: 8px;
 }
-.expertise{
+
+.expertise {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.expertise img{
+
+.expertise img {
     margin: 5px;
     width: 24px;
     height: auto;
 }
 
-.expertise-desc{
+.expertise-desc {
     position: absolute;
     margin-top: 40px;
     padding: 0.55rem 1rem;
@@ -92,27 +98,86 @@
     transition: all 0.2s ease-in-out;
 }
 
-.expertise .expertise-icons:hover  .expertise-desc{
+.expertise .expertise-icons:hover .expertise-desc {
     opacity: 0.9;
 }
-.expertise-icons{
+
+.expertise-icons {
     display: flex;
     flex-direction: row;
     cursor: pointer;
 }
 
 @-webkit-keyframes gradientAnimation {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
 }
+
 @-moz-keyframes gradientAnimation {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
 }
+
 @keyframes gradientAnimation {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .about-container {
+        flex-direction: column;
+        height: 800px;
+        justify-content: space-around;
+        margin-top: 60px;
+    }
+
+
+    .about-right-side img {
+        width: 250px;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .about-left-side {
+        width: 80%;
+        height: 400px;
+    }
+
+    .about-text p {
+        letter-spacing: -0.6px;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    .expertise-desc {
+        left: 18%;
+    }
 }

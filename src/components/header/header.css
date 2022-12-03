@@ -1,7 +1,8 @@
-*{
+* {
     box-sizing: border-box;
 }
-.header-outer-container{
+
+.header-outer-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,7 +10,8 @@
     max-height: 800px;
     text-align: center;
 }
-.header-container{
+
+.header-container {
     height: 86vh;
     max-height: 800px;
     width: 96vw;
@@ -26,34 +28,64 @@
 }
 
 @-webkit-keyframes gradientAnimation {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
 }
+
 @-moz-keyframes gradientAnimation {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
 }
+
 @keyframes gradientAnimation {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
 }
-.container{
+
+.container {
     margin: 0 auto;
 }
-h1{
+
+h1 {
     font-weight: 300;
     font-size: 12rem;
     line-height: 0.8;
 }
-h2{
+
+h2 {
     font-weight: 200;
     font-size: 5rem;
     letter-spacing: 0.1px;
 }
-.header-bottom-texts{
+
+.header-bottom-texts {
     margin-bottom: 2vh;
     width: 95%;
     display: flex;
@@ -62,6 +94,32 @@ h2{
     justify-content: space-between;
 }
 
-.tempdiv{
+.tempdiv {
     height: 12vh;
+}
+
+@media screen and (max-width: 450px) {
+    .header-outer-container {
+        height: 70vh;
+    }
+
+    .container {
+        width: 95vw;
+    }
+
+    .header-container {
+        height: 60vh;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .header-bottom-texts {
+        font-size: 0.8rem;
+    }
 }

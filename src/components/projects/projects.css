@@ -1,12 +1,91 @@
-.projects-outer-container{
+.projects-outer-container {
     margin-top: 50px;
 }
-.projects-text{
+
+.projects-text {
     width: 100%;
     text-align: center;
-  }
-  
-.projects-text h2{
+}
+
+.projects-text h2 {
     font-weight: bold;
     font-size: 40px;
+}
+
+.projects-mobile-container {
+    display: none;
+}
+
+@media screen and (max-width: 450px) {
+    .projects-outer-container {
+        margin-top: 20px;
+    }
+
+    .projects-text h2 {
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .projects-mobile-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .mobile-card {
+        width: 95vw;
+        margin: 20px;
+        padding: 15px;
+        border-radius: 10px;
+        background-color: whitesmoke;
+    }
+
+    .mobile-card h3 {
+        margin: 20px;
+    }
+
+    .mobile-card-p {
+        margin: 20px;
+    }
+
+    .mobile-card button {
+        margin-left: 20px;
+        width: 100px;
+        height: 40px;
+        border-radius: 999px;
+        background-color: transparent;
+        color: black;
+        font-weight: bold;
+        border: 2px solid black;
+        transition: 0.4s ease-in-out;
+    }
+
+    .mobile-card button:hover {
+        background-color: black;
+        cursor: pointer;
+        color: white;
+    }
+
+    .mobile-card button:hover a {
+        color: white;
+    }
+
+    .mobile-card button a {
+        text-decoration: none;
+        transition: 0.4s ease-in-out;
+        color: black;
+    }
+
+    .mobile-card button a:hover {
+        color: white;
+    }
+
+    .mobile-card img {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
 }
